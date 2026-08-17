@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jpgill86-skills",
+  "description": "Personal Claude Code skills",
+  "owner": {
+    "name": "Jeffrey Gill",
+    "email": "jeffrey.p.gill@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "standard-notes-plugins",
+      "description": "Build, test, and publish Standard Notes plugins (editors, editor-stack components, note-tags/tags-list widgets, themes).",
+      "author": {
+        "name": "Jeffrey Gill"
+      },
+      "source": "./plugins/standard-notes-plugins",
+      "homepage": "https://github.com/jpgill86/claude-skills"
+    }
+  ]
+}
