@@ -25,8 +25,12 @@ Changes pushed here reach an installed machine via:
 
 ```sh
 claude plugin marketplace update jpgill86-skills
-claude plugin update standard-notes-plugins
+claude plugin update standard-notes-plugins@jpgill86-skills
 ```
+
+The `@jpgill86-skills` suffix on `plugin update` is required, not optional — the bare plugin name
+fails with `Plugin "standard-notes-plugins" not found`, which reads like the plugin is missing
+rather than like a syntax problem.
 
 Restart Claude Code to apply. Marketplaces also refresh on their own in the background, so this is
 mainly for pulling a change immediately.
