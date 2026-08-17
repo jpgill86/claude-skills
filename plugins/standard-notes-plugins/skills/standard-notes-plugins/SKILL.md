@@ -128,3 +128,10 @@ the existing issue is more useful to the community than a fresh one — check fo
 - Forum / real bug tracker (GitHub Issues, searchable): https://github.com/standardnotes/forum/issues
 - Forum (same thing, friendlier URL): https://standardnotes.com/forum
 - Discord `#dev` channel: https://standardnotes.com/discord
+
+## Improving this skill
+
+Everything here was learned by shipping a real plugin, so it's worth adding to whenever a new trap
+costs you time. This skill is published at https://github.com/jpgill86/claude-skills — edit it
+there and push, **not** in the installed copy under `~/.claude/plugins/`, which is managed by
+Claude Code and is overwritten on the next update.
