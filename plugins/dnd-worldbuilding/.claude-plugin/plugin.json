@@ -1,0 +1,18 @@
+{
+  "name": "dnd-worldbuilding",
+  "description": "Creative partner for D&D worldbuilding in an Obsidian vault: Socratic brainstorming, lore-consistency checks, and campaign planning. Never edits your notes; keeps its own in _Assistant/.",
+  "author": {
+    "name": "Jeffrey Gill",
+    "email": "jeffrey.p.gill@gmail.com"
+  },
+  "homepage": "https://github.com/jpgill86/claude-skills",
+  "repository": "https://github.com/jpgill86/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "dnd",
+    "worldbuilding",
+    "obsidian",
+    "tabletop-rpg",
+    "brainstorming"
+  ]
+}

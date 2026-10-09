@@ -18,6 +18,7 @@ Or interactively from inside Claude Code, with `/plugin`.
 | Plugin | What it's for |
 |---|---|
 | [`standard-notes-plugins`](plugins/standard-notes-plugins) | Building, testing, and publishing [Standard Notes](https://standardnotes.com) plugins — editors, editor-stack components, note-tags/tags-list widgets, and themes. Includes a hard-won [known issues and gotchas](plugins/standard-notes-plugins/skills/standard-notes-plugins/references/known-issues-and-gotchas.md) reference covering silent, platform-specific failures that cost real debugging time to find. |
+| [`dnd-worldbuilding`](plugins/dnd-worldbuilding) | A creative partner for D&D worldbuilding in an [Obsidian](https://obsidian.md) vault: Socratic brainstorming, lore-consistency checks, campaign planning, naming. Becomes expert in the vault's lore but never edits the user's notes — it keeps its own in an `_Assistant/` folder, and a bundled hook blocks writes anywhere else in that vault. |
 
 ## Updating
 
