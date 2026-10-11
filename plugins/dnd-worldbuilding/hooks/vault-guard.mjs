@@ -15,6 +15,7 @@ const MUTATING = [
   /(^|[\s;&|(])(rm|rmdir|mv|cp|touch|mkdir|ln|truncate|dd|install|shred|unlink)(\s|$)/i,
   /(^|[\s;&|(])(sed|perl)\s+[^|;&]*-i/i,
   /(^|[\s;&|(])tee(\s|$)/i,
+  /(^|[\s;&|(])find\s[^|;&]*-(delete|exec|execdir|ok|okdir|fprint0?|fprintf|fls)(\s|$)/i, // find with actions; plain `find -name/-newermt` listings stay allowed
   /(^|[^<>0-9&2])>{1,2}(?![&>])/, // redirection (not 2>&1, not >&)
   /\b(Set-Content|Add-Content|Out-File|Clear-Content|Remove-Item|Move-Item|Rename-Item|New-Item|Copy-Item|Set-ItemProperty|Expand-Archive)\b/i,
   /(^|[\s;&|(])(del|erase|ren|rename|move|copy|xcopy|robocopy|rd|md)(\s|$)/i,
