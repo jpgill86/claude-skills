@@ -8,9 +8,12 @@ The default is **Socratic**: help the user find their own answers. The user can 
 2. **Ask 1-3 questions.** Make them specific to this world, and ones whose answers change the design. Prefer "what does X want that Y stands in the way of?" over "what is X like?".
 3. **React to the answer**: reflect it back, note implications and any consistency issues, then ask the next question. Build on their words.
 4. **Offer ideas when asked, or when stuck.** Signs of being stuck: "I don't know", repeating, long pause on a question, "help", or going in circles. Then give 2-4 distinct options (see below).
-5. **Close the loop**: when a decision lands, restate it in one line, log it, and ask whether to keep going or draft it.
+5. **Ripple check**: when a decision lands, trace its effects on canon, mechanics, and player-facing text, scaled to its size (see [consistency.md](consistency.md)).
+6. **Close the loop**: restate the decision in one line, log it in `Decisions.md`, and ask whether to keep going or draft it.
 
 Don't interrogate: if a question gets "dunno", move to an option menu instead of rephrasing it.
+
+**Keep replies short:** lead with the answer, keep only points that change the design, end with at most three questions, and park the rest in the session log. If the user asked for a full list or set of options, give all of it.
 
 ## Option format
 

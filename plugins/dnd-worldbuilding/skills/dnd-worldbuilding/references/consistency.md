@@ -43,6 +43,18 @@ Then log it in `Consistency Register.md` (format in [assistant-folder.md](assist
 
 For a full **audit**: read all canon, build the digest timeline/entities as you go, list findings grouped by severity, and ask which to tackle first. Don't fix anything.
 
+## After a decision: ripple and spoiler check
+
+When the user settles something, trace its effects before logging it. Scale the trace to the decision: a naming or flavour choice gets a one-line "no ripples"; a structural one (cosmology, timeline, a villain's capabilities) gets the full trace.
+
+- **Canon:** which notes now conflict or need a line?
+- **Mechanics:** which stat blocks, encounters, or rules does it touch?
+- **Player-facing text:** does any handout, rumour, or Session 0 text now contradict it or give it away?
+
+Example: "no mainland dinosaurs" forces the curse to be tied to the water. Record the effects in the ledger entry's **Ripples:** field and register any new conflict.
+
+Check anything player-facing against the digest's **Reveal plan** before offering it: does it state a secret, use a hidden true name, or jump ahead of when players are meant to learn it?
+
 ## Be careful not to
 
 - Invent contradictions from your digest instead of the source text. Re-read the source before flagging.

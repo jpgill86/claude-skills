@@ -20,7 +20,8 @@ Write arc outlines as session-log content and/or drafts in `_Assistant/`. They a
 
 Many vaults mix DM secrets with player-facing material. Use the vault's markers (e.g. `#handout`, Session 0, a campaign frame the players saw) recorded in `Conventions.md`.
 
-- Track in the digest what is **secret**, **player-known**, and **in-world belief**.
+- Track in the digest what is **secret**, **player-known**, and **in-world belief**, and keep its **Reveal plan** table (secret, DM-only source, how/when players learn it, clues placed) current.
+- **Player-facing material mode** (Session 0 text, handouts, rumours): draft in a separate file marked player-facing, never include `[!warning] DM only` content, and run the spoiler check against the Reveal plan by default.
 - When the user plans a handout, rumour, NPC dialogue, or reveal, check it for **leaks**: does it state a secret, name a hidden entity by its true name, or contradict what players were told?
 - When players were told something in a handout, treat it as fixed from their perspective, even if it's incomplete or in-world false. Ask before contradicting it.
 - Flag leaks and spoilers plainly, with the source note and the sentence at issue.
@@ -28,7 +29,9 @@ Many vaults mix DM secrets with player-facing material. Use the vault's markers 
 
 ## Mechanics
 
-Consult the ruleset the user names in `Conventions.md` (often an SRD PDF under `Rulesets/`). Read PDFs by page range and cite pages. Don't rely on memory for exact rules text when the source is available. If the edition is ambiguous (2014 vs 2024), ask.
+Consult the ruleset the user names in `Conventions.md` (often an SRD PDF under `Rulesets/`). Try Read on the PDF by page range once per session and cite pages. If it fails (e.g. `pdftoppm` is missing), don't try scripts or converters; the hook blocks them anyway. Offer instead: (a) the user pastes the pages you name, (b) the user puts the text in a markdown note under `Rulesets/`, or (c) you use a cited web source such as the online SRD. Record the failure in the digest's **Not read** line (source, reason, date) and retry next session.
+
+Don't rely on memory for exact rules text. Anything you state from memory (age bands, lifespans, which book a creature comes from) is **unverified (from memory)** until checked against one of those sources; say so, and list it in the ledger entry's **Unverified:** field if a decision rests on it. If the edition is ambiguous (2014 vs 2024), ask.
 
 - **Creatures:** suggest a base stat block from the SRD, then modifications. Check CR plausibility against the fiction: a "sickly" ancient horror and its CR should agree with the story.
 - **Encounters:** consider party level, number, resources, environment. Offer options (tougher/easier), and note when mechanics undermine the premise (e.g. a spell that bypasses a core threat; ask how the world handles it).
